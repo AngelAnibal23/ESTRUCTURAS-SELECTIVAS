@@ -2,15 +2,15 @@
 using namespace std;
 int main(){
 	int prom;
-	cout<<"ingrese el promedio obtenido: ";
+	cout<<"Digite el promedio obtenido: ";
 	cin>>prom;
 
 	if(prom>=70){
 		
-		cout<<"aprobado";
+		cout<<"Aprobado: el promedio es mayor a 70";
 	}else{
 	
-		cout<<"desaprobado";
+		cout<<"Desaprobado: el promedio es menor a 70";
 	}
 	
 	return 0;

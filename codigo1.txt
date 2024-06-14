@@ -1,0 +1,18 @@
+#include <iostream>//. Determinar si un alumno aprueba o reprueba un curso, sabiendo que aprobara si su promedio de tres calificaciones es mayor o igual a 70; reprueba en caso contrario.
+using namespace std;
+int main(){
+	int prom;
+	cout<<"ingrese el promedio obtenido: ";
+	cin>>prom;
+
+	if(prom>=70){
+		
+		cout<<"aprobado";
+	}else{
+	
+		cout<<"desaprobado";
+	}
+	
+	return 0;
+	
+}

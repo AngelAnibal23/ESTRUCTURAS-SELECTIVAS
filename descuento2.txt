@@ -1,0 +1,25 @@
+#include <iostream> //Calcular el total a pagar por la compra de camisas. Si se compran tres camisas o más se aplica un descuento del 20% sobre el total de //la compra 
+//y si son menos de tres camisas un descuento del 10%
+using namespace std;
+int main(){
+	float precunitario, prectotal, numcamisas, prectotfinal;
+	cout<<"ingrese el precio unitario de la camisa: ";
+	cin>>precunitario;
+	cout<<"ingrese la cantidad de camisas: ";
+	cin>>numcamisas,
+	prectotal=numcamisas*precunitario;
+	
+	if(ncami>2){
+		
+		prectotfinal=prectotal-prectotal*20/100;
+		cout<<"monto total con desc. del 20% es: "<<prectotfinal<<endl;
+		
+	}else{
+		prectotfinal=prectotal-prectotal*10/100;
+		cout<<"monto total con dec. del 10% es: "<<prectotfinal<<endl;
+	}
+	
+	
+	return 0;
+	
+}

@@ -1,0 +1,30 @@
+#include <iostream> //En un juego de preguntas a las que se responde “Si” o “No” gana quien responda
+//correctamente las tres preguntas. Si se responde mal a cualquiera de ellas ya no se
+//pregunta la siguiente y termina el juego. Las preguntas son:
+//¿Colón descubrió América?
+//¿El lago Titicaca es el lago navegable más alto del mundo?
+//¿El español es el único idioma oficial de Perú?
+
+using namespace std;
+int main(){
+	int resp;
+	cout<<"para responder Si=1"<<endl<<"para responder No=0"<<endl;
+	cout<<"¿Colon descubrio America?: ";
+	cin>>resp;
+	if(resp==1){
+		cout<<"¿El lago Titicaca es el lago navegable mas alto del mundo?: ";
+		cin>>resp;
+		if(resp==1){
+			cout<<"¿El espaniol es el unico idioma oficial de Peru?: ";
+			cin>>resp;	
+			if(resp==0){
+				cout<<"respondiste correctamente las tres preguntas";		
+			}
+			
+		}
+	}
+	
+	
+	return 0;
+	
+}

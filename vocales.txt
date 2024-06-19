@@ -1,0 +1,25 @@
+#include <iostream> //Si las vocales se representan con números del 1 al 5, lea un número e indique que vocal es.
+using namespace std;
+int main(){
+	int num;
+	cout<<"si a=1 , e=2 , i=3 , o=4 , u=5 "<<endl<<"digite un numero para obtener una vocal: ";
+	cin>>num;
+	if(num==1){
+		cout<<" A ";
+	}else if(num==2){
+		cout<<" E ";
+	}else if(num==3){
+		cout<<" I ";
+	}else if(num==4){
+		cout<<" O ";
+	}else if(num==5){
+		cout<<" U ";
+	}else{
+		cout<<"NO ES UNA VOCAL";
+	}
+	
+	
+	
+	return 0;
+	
+}

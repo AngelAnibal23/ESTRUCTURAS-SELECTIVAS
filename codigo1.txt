@@ -2,8 +2,14 @@
 using namespace std;
 int main(){
 	int prom;
+	char letra; 
 	cout<<"Digite el promedio obtenido: ";
 	cin>>prom;
+	
+	if(prom==letra){
+	cout<<"El dato ingresado es invalido. "; 
+	return 1; 
+	}
 
 	if(prom>=70){
 		
